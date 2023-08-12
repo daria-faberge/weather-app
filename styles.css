@@ -1,0 +1,30 @@
+.container {
+  font-family: "Bacasime Antique", serif;
+  font-family: "Ysabeau Office", sans-serif;
+  border-style: solid;
+  border-radius: 25px;
+  margin: 100px 50px;
+  padding: 30px 30px;
+  display: block;
+  text-align: center;
+  border-radius: 25px;
+  border-width: 1px;
+  border-color: #53a8b6;
+}
+h1 {
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 50px;
+  font-size: 65px;
+}
+.col-6 {
+  text-align: left;
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+body {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.col {
+  font-size: 25px;
+}
