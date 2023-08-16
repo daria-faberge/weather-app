@@ -33,16 +33,13 @@ function searching(event) {
 }
 
 let searchForm = document.querySelector("#search-form");
-searchForm.addEventListener("submit", searching);
+searchForm.addEventListener("submit", search);
 
 function search(event) {
   event.preventDefault();
   let cityInput = document.querySelector("#search-city");
   searchCity(cityInput.value);
 }
-
-let form = document.querySelector("#search-form");
-form.addEventListener("submit", search);
 
 function searchCity(city) {
   let apiKey = "4b3503b2f08a729413c4d33ef1186004";
