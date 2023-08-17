@@ -31,6 +31,12 @@ function searching(event) {
   let selectedCity = document.querySelector("#selected-city");
   city.innerHTML = selectedCity.value;
 }
+function showTemperature(response) {
+  let city = document.querySelector("#city");
+  let temperatureElement = document.querySelector("#temperature");
+  city.innerHTML = response.data.name;
+  temperatureElement.innerHTML = response.data.main.temp;
+}
 
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", search);
